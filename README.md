@@ -12,6 +12,8 @@ ds-alg-code, 全称data structures and algorithms code。<br/>
 以下是基于实战题目整理出相应的套路。
 
 ```
+大前提，要考虑题目的约束条件
+
 # 链表
 手写表示方法: 1 -> 2 -> 3 -> 4 -> 5
 常见思路：
@@ -21,6 +23,7 @@ ds-alg-code, 全称data structures and algorithms code。<br/>
     头尾（head、tail）
     大小（big、small）
     奇偶（odd、even）
+    左右（l、r）
 
 # 栈
 手写表示方法:
@@ -34,10 +37,12 @@ ds-alg-code, 全称data structures and algorithms code。<br/>
 
 # 数组
 手写表示方法: [1, 2, 3, 4, 5]
-常见思路：
+常见思路：通过索引来操作
     遍历（while、for）
     索引（i、j）
     二分（有序数组）
+    快慢双指针（fast、slow）
+    相向双指针（l、r）
 
 注意：
     要考虑数字重复问题
